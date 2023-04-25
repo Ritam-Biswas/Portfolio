@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Navbar from '@/components/navbar.component'
 import Hero from '@/components/hero.component'
 import About from '@/components/about.component'
+import Skills from '@/components/skills.component'
+import Projects from '@/components/projects.component'
 
 export default function Home() {
   return (
@@ -12,10 +14,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="px-8 md:px-24 md:text-lg xl:px-48 ">
+      <main className="px-8 md:px-24 md:text-lg xl:px-48 snap-y snap-mandatory">
         <Navbar/>
         <Hero/>
         <About/>
+        <Skills/>
+        <Projects/>
       </main>
     </>
   )
