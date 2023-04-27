@@ -4,6 +4,7 @@ import Hero from '@/components/hero.component'
 import About from '@/components/about.component'
 import Skills from '@/components/skills.component'
 import Projects from '@/components/projects.component'
+import Contact from '@/components/contact.component'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <About/>
         <Skills/>
         <Projects/>
+        <Contact/>
       </main>
     </>
   )
