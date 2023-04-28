@@ -8,7 +8,7 @@ const Projects = () => {
             <div className="w-[80%] md:w-full flex overflow-x-auto  snap-x snap-mandatory">
                 {
                     PROJECTS.map((project)=>{
-                        return <ProjectCard project={project}/>
+                        return <ProjectCard project={project} key={project.title}/>
                     })
                 }
             </div>

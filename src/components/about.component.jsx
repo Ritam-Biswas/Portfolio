@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { motion, spring } from "framer-motion";
+import { motion } from "framer-motion";
 import aboutImage from '../../public/aboutImage.jpg'
 
 const About = () => {

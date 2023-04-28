@@ -7,7 +7,7 @@ const Hero = () => {
     return(
         <section className="h-screen flex flex-col items-center text-grey text-xs md:text-[14px] justify-center pb-12 md:space-y-1 snap-center relative overflow-hidden"> 
             <div className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] relative rounded-full border-white mb-5">
-                <Image src={profileImage} alt='profile image' fill className="object-cover rounded-full"/>
+                <Image src={profileImage} alt='profile image' fill className="object-cover rounded-full" priority/>
             </div>
             <p className="tracking-[5px]">FRONT-END DEVELOPER</p>
             <div className="text-white text-2xl md:text-3xl">

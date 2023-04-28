@@ -4,7 +4,7 @@ import nextJs from '../../public/next-js.svg'
 const SkillIcon = ({skill}) => {
     return(
         <div className='border-[grey] border-[1px] rounded-full  group flex items-center relative h-[55px] w-[55px] justify-center'>
-            <div className='h-[40px] w-[40px] group-hover:grayscale'>
+            <div className='h-[40px] w-[40px] group-hover:grayscale relative'>
                 {
                     skill.name == 'Next Js' ?
                     (

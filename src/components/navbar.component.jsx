@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { ImFacebook } from 'react-icons/im'
 import { ImLinkedin } from 'react-icons/im'

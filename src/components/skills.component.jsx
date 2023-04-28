@@ -25,7 +25,7 @@ const Skills = () => {
                 >
                     {
                         upperHalfSkills.map((skill)=>{
-                            return <SkillIcon skill={skill}/>
+                            return <SkillIcon skill={skill} key={skill.name}/>
                         })
                     }
                 </motion.div>
@@ -42,7 +42,7 @@ const Skills = () => {
                 >
                     {
                         lowerHalfSkills.map((skill)=>{  
-                            return <SkillIcon skill={skill}/>
+                            return <SkillIcon skill={skill} key={skill.name}/>
                         })
                     }
                 </motion.div>

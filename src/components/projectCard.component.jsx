@@ -23,14 +23,14 @@ const ProjectCard = ({project}) => {
                 <div className="flex w-[40%] justify-between my-2">
                     {
                         project.icons.map((icon)=>{
-                            return <img src={icon.imageUrl} alt={icon.name}/>
+                            return <img src={icon.imageUrl} alt={icon.name} key={icon.name}/>
                         })
                     }
                 </div>
                 <ul className="list-disc text-sm opacity-80 ml-5">
                     {
                         project.descriptions.map((description)=>{
-                            return <li>{description.text}</li>
+                            return <li key={description.id}>{description.text}</li>
                         })
                     }
                 </ul>
