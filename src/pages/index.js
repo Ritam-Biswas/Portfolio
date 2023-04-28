@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="px-8 md:px-24 md:text-lg xl:px-48 snap-y snap-mandatory">
+      <main className="px-8 md:px-24 md:text-lg xl:px-48 snap-y snap-mandatory overflow-hidden">
         <Navbar/>
         <Hero/>
         <About/>

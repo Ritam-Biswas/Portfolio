@@ -30,7 +30,9 @@ export const PROJECTS = [
                 id : 3,
                 text : 'Deployed using Netlify'
             }
-        ] 
+        ],
+        github : 'https://github.com/Ritam-Biswas/Capstone-Ecommerce',
+        website : ''
     },
     {
         category : 'React Project',
@@ -59,7 +61,9 @@ export const PROJECTS = [
                 id : 3,
                 text : 'Deployed using Netlify'
             }
-        ] 
+        ],
+        github : 'https://github.com/Ritam-Biswas/Monsters-Rolodex',
+        website : 'ritam-biswas.github.io/Monsters-Rolodex/' 
     },
     {
         category : 'Personal Linktree',
@@ -96,6 +100,8 @@ export const PROJECTS = [
                 id : 4,
                 text : 'Deployed using github pages'
             }
-        ] 
+        ],
+        github : 'https://github.com/Ritam-Biswas/linktree',
+        website : 'ritam-biswas.github.io/linktree/' 
     }
 ]
