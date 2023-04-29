@@ -13,16 +13,16 @@ const Navbar = () => {
         animate={{opacity:1, x:0}}
         transition={{duration:0.5, ease:'easeInOut'}}
         className='flex items-center space-x-3'>
-          <a href='https://www.facebook.com/profile.php?id=100009024275664' className='hover:opacity-80'>
+          <a href='https://www.facebook.com/profile.php?id=100009024275664' className='hover:text-white/70'>
             <ImFacebook/>
           </a>
-          <a href='https://www.linkedin.com/in/ritambiswas1801/' className='hover:opacity-80'>
+          <a href='https://www.linkedin.com/in/ritambiswas1801/' className='hover:text-white/70'>
             <ImLinkedin />
           </a>
-          <a href='https://github.com/Ritam-Biswas' className='hover:opacity-80'>
+          <a href='https://github.com/Ritam-Biswas' className='hover:text-white/70'>
             <FaGithub />
           </a>
-          <a href='https://www.instagram.com/boyhood_stories/' className='hover:opacity-80'>
+          <a href='https://www.instagram.com/boyhood_stories/' className='hover:text-white/70'>
             <BsInstagram />
           </a>
         </motion.div>
@@ -31,10 +31,10 @@ const Navbar = () => {
         animate={{opacity:1, x:0}}
         transition={{duration:0.5, ease:'easeInOut'}}
         className='flex items-center space-x-3'>
-            <a href="mailto:ritambiswas1801@gmail.com" className='hover:opacity-80'>
+            <a href="mailto:ritambiswas1801@gmail.com" className='hover:text-white/70'>
               <GrMail/>
             </a>
-            <a className='font-medium hover:opacity-80' href='#contact'>Get in touch</a>
+            <a className='font-medium hover:text-white/70' href='#contact'>Get in touch</a>
         </motion.div>
     </div>
   )

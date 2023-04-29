@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Typewriter from 'typewriter-effect';
 import profileImage from '../../public/profileImage.jpg'
+import Link from "next/link";
 
 const Hero = () => {
     return(
@@ -22,13 +23,21 @@ const Hero = () => {
                 />
             </div>
             <div className="flex space-x-2">
-                <p className="">About</p>
-                <p>Experience</p>
-                <p>Skills</p>
-                <p>Projects</p>
+                <Link href='#about'>
+                    <p className="hover:text-white/70 cursor-pointer">About</p>
+                </Link>
+                <Link href='#skills'>
+                    <p className="hover:text-white/70 cursor-pointer">Skills</p>
+                </Link>
+                <Link href='#projects'>
+                    <p className="hover:text-white/70 cursor-pointer">Projects</p>
+                </Link>
+                <Link href='#contact'>
+                    <p className="hover:text-white/70 cursor-pointer">Contact</p>
+                </Link>
             </div>
             <motion.div 
-            className="h-[350px] w-[350px] md:h-[450px] md:w-[450px] lg:h-[500px] lg:w-[500px] border-[1px] border-grey rounded-full absolute "
+            className="h-[350px] w-[350px] md:h-[450px] md:w-[450px] lg:h-[500px] lg:w-[500px] border-[1px] border-grey rounded-full absolute -z-10"
             whileInView={{
                 scale:[1,1.5,2,2,1.5,1],
                 opacity:['60%','30%','0%','0%','30%','60%'],

@@ -4,7 +4,7 @@ import aboutImage from '../../public/aboutImage.jpg'
 
 const About = () => {
   return (
-    <section className="h-screen flex items-center flex-col text-white snap-center">
+    <section className="h-screen flex items-center flex-col text-white snap-center" id="about">
         <h2 className="text-grey text-xl tracking-[8px]  pt-14">ABOUT</h2>
         <div className="flex flex-col items-center justify-center h-[80%] space-y-5 md:flex-row md:space-x-8 w-full">
             <motion.div

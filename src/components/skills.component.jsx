@@ -8,7 +8,7 @@ const Skills = () => {
     const lowerHalfSkills = SKILLS.filter((_,idx)=>idx>=8)
 
     return(
-        <section className='h-screen snap-center flex flex-col items-center'>
+        <section className='h-screen snap-center flex flex-col items-center' id='skills'>
             <h2 className="text-grey text-xl tracking-[8px]  pt-14 ">SKILLS</h2>
             <p className='text-grey text-xs  mt-2 mb-[100px] md:text-sm'>Hover Over A Skill For Current Proficiency</p>
             <div className='md:w-[400px] w-[300px]'>

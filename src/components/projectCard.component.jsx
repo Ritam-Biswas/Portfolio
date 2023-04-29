@@ -20,7 +20,7 @@ const ProjectCard = ({project}) => {
             <div>
                 <h3 className="text-[22px]">{project.category}</h3>
                 <p className="text-[18px]">{project.tittle}</p>
-                <div className="flex w-[40%] justify-between my-2">
+                <div className="flex  my-2 space-x-5">
                     {
                         project.icons.map((icon)=>{
                             return <img src={icon.imageUrl} alt={icon.name} key={icon.name}/>
