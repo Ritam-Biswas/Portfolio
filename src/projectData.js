@@ -24,46 +24,50 @@ export const PROJECTS = [
             },
             {
                 id : 2,
-                text : 'Used best practices structure and write clean and efficient code'
+                text : 'Used Firebase/Firestore services for database and authentication'
             },
             {
                 id : 3,
-                text : 'Deployed using Netlify'
+                text : 'Used Context API to store all data locally'
             }
         ],
-        github : 'https://github.com/Ritam-Biswas/Capstone-Ecommerce',
-        website : ''
+        github : 'https://github.com/Ritam-Biswas/Capstone',
+        website : 'https://crownwears.netlify.app/'
     },
     {
-        category : 'React Project',
-        title : 'Monsters Rolodex',
-        imageUrl : 'https://img.icons8.com/color/65/null/monster-face.png',
+        category : 'Youtube Clone',
+        title : 'Streaming Tube',
+        imageUrl : 'https://img.icons8.com/color/65/cinema---v1.png',
         icons : [
             {
                 name : 'React Js',
                 imageUrl : 'https://img.icons8.com/color/24/null/react-native.png'
             },
             {
-                name : 'Sass',
-                imageUrl : 'https://img.icons8.com/color/24/null/sass.png'
+                name : 'Material Ui',
+                imageUrl : 'https://img.icons8.com/color/24/material-ui.png'
+            },
+            {
+                name : 'Rapid Api',
+                imageUrl : 'https://img.icons8.com/color/24/api-settings.png'
             }
         ],
         descriptions : [
             {
                 id : 1,
-                text : 'A React Js project utilizing all the basic concepts, including hooks, props and components'
+                text : 'Develpoed a fully responsive video streaming platform using React.js'
             },
             {
                 id : 2,
-                text : 'Deployed using github pages'
+                text : 'Implemented react\'s most popular ui library - Material UI'
             },
             {
                 id : 3,
-                text : 'Deployed using Netlify'
+                text : 'Integrated real time youtube data using Rapid API'
             }
         ],
-        github : 'https://github.com/Ritam-Biswas/Monsters-Rolodex',
-        website : 'ritam-biswas.github.io/Monsters-Rolodex/' 
+        github : 'https://github.com/Ritam-Biswas/Youtube_Clone',
+        website : 'https://streamingtube.netlify.app/' 
     },
     {
         category : 'Personal Linktree',
@@ -95,13 +99,9 @@ export const PROJECTS = [
             {
                 id : 3,
                 text : 'Used libraries like particle.js, autotype.js to make it attractive'
-            },
-            {
-                id : 4,
-                text : 'Deployed using github pages'
             }
         ],
         github : 'https://github.com/Ritam-Biswas/linktree',
-        website : 'ritam-biswas.github.io/linktree/' 
+        website : 'https://ritam-biswas.github.io/linktree/' 
     }
 ]
